@@ -11,8 +11,12 @@
   font-family: sans-serif;
 }
 
+:root {
+  font-size: 10px;
+}
+
 .wrapper {
-  max-width: 1280px;
+  max-width: 1200px;
   width: 100%;
   margin: 0px auto;
 }

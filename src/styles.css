@@ -1,6 +1,7 @@
 @import url(base/normalize.css);
 .header {
   width: 100%;
+  padding-top: 6rem;
   background-color: black; }
   .header .wrapper {
     display: flex;
@@ -12,6 +13,7 @@
   flex-direction: column; }
 
 .header-logo-title {
+  margin-bottom: 1rem;
   color: #F1CDB3;
   font-family: Georgia;
   font-size: 32px;
@@ -22,10 +24,17 @@
   text-align: left; }
 
 .header-logo-subtitle {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-align: left; }
 
 .header__navigation {
-  width: 27.9375 rem; }
+  width: 44.7rem; }
 
 .header-menu-list {
   width: 100%;
@@ -37,16 +46,35 @@
   list-style-type: none; }
 
 .header-menu-list-item {
-  color: #CDCDCD; }
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left; }
   .header-menu-list-item a {
     color: #CDCDCD;
     text-decoration: none; }
+  .header-menu-list-item.item_active {
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FAFAFA;
+    border-bottom: #F1CDB3 2px solid; }
 
 * {
   box-sizing: border-box;
   font-family: sans-serif; }
 
+:root {
+  font-size: 10px; }
+
 .wrapper {
-  max-width: 1280px;
+  max-width: 1200px;
   width: 100%;
   margin: 0px auto; }
