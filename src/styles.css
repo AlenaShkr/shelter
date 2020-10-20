@@ -1,0 +1,12 @@
+@import url(base/normalize.css);
+* {
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+body {
+  background: green; }
+
+.header-logo {
+  width: 200px;
+  height: 200px;
+  background: red; }
