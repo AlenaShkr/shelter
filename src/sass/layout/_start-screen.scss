@@ -6,6 +6,15 @@
  radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 
+.start-screen__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 5.3rem;
+}
+
 .start-screen__title {
     font-family: Georgia;
     font-style: normal;
