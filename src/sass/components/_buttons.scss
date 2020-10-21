@@ -1,0 +1,28 @@
+.primary-button {
+    padding: 1.5rem 4.3rem;
+    background: $color-primary;
+    border: 0px;
+    border-radius: 10rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7rem;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.06em;
+    color:$color-dark-3xl;
+    &:hover {
+        background-color: $color-primary-light;
+    }
+}
+
+.secondary-button {
+    @extend .primary-button;
+    background: $color-light-l;
+    border: $color-primary 0.1rem solid;
+    color:$color-dark-3xl;
+    &:hover {
+        background-color: $color-primary-light;
+    }
+}
