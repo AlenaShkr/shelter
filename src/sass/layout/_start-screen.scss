@@ -4,11 +4,14 @@
     background: url(../../assets/noise_lines_transparent@2X.png),
     radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
     &__content {
-        padding-bottom: 15rem;
- }
-    &__button {
-
+        margin-bottom: 9rem;
+        height: 32rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
     }
+    
 }
 
 .start-screen__wrapper {
@@ -22,6 +25,7 @@
 
 .start-screen__title {
     padding-right: 19rem;
+    margin: 0px;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
