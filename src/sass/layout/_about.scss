@@ -1,0 +1,38 @@
+.about__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 7rem 17rem 10rem;
+}
+.about {
+    &__picture {
+        
+    }
+    &__content {
+        width: 43rem;
+    }
+    &__information {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        display: flex;
+        align-items: center;
+        color: $color-dark-xl;
+    }
+}
+.about__title {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    color: $color-dark-l;
+}
