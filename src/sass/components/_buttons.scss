@@ -26,3 +26,22 @@
         background-color: $color-primary-light;
     }
 }
+
+.button-arrow {
+    width: 5.2rem;
+    height: 5.2rem;
+    background-image: url('../../../assets/Arrow.png');
+    background-color: $color-light-l;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $color-dark-3xl;
+    border: 2px solid $color-primary;
+    border-radius: 50%;
+    &:hover {
+        background-color: $color-primary;
+    }
+    &__inactive {
+        color: $color-dark-s; 
+        border-color: $color-dark-s;  
+    }
+}
