@@ -1,0 +1,58 @@
+.pets {
+    background-color: $color-light-l;
+    &__wrapper {
+        padding-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        .primary-button {
+            margin: 0px auto;
+        }
+    }
+    &__title {
+        h3 {
+            margin: 0px;
+            padding-left: 0.7rem;
+            font-family: Georgia;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3.5rem;
+            line-height: 4.5rem;
+            
+            text-align: center;
+            letter-spacing: 0.06em;
+
+            color: $color-dark-l;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-light-s;
+    img {
+        max-width: 27rem;
+        height: auto;
+        border-radius: 9px 9px 0px 0px;
+    }
+    &__name {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 2.3rem;
+        
+        text-align: center;
+        letter-spacing: 0.06em;
+
+        color: $color-dark-l;
+    }
+}
