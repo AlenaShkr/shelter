@@ -191,18 +191,21 @@
     flex-direction: column; }
     .pets__wrapper .primary-button, .pets__wrapper .secondary-button {
       margin: 0px auto; }
-  .pets__title h3 {
-    margin: 0px;
-    padding-left: 0.7rem;
-    font-family: Georgia;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #545454; }
+  .pets__title {
+    margin-bottom: 6rem; }
+    .pets__title h3 {
+      margin: 0px;
+      padding-left: 0.7rem;
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3.5rem;
+      line-height: 4.5rem;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: #545454; }
   .pets__content {
+    padding-bottom: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -227,6 +230,14 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #545454; }
+  .card .secondary-button {
+    color: #292929; }
+
+.button-arrow_prev {
+  margin-right: 0.7rem; }
+
+.button-arrow_next {
+  transform: rotate(180deg); }
 
 * {
   box-sizing: border-box;

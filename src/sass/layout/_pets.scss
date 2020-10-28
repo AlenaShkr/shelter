@@ -9,6 +9,7 @@
         }
     }
     &__title {
+        margin-bottom: 6rem;
         h3 {
             margin: 0px;
             padding-left: 0.7rem;
@@ -25,10 +26,12 @@
         }
     }
     &__content {
+        padding-bottom: 6rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        
     }
 }
 
@@ -55,4 +58,17 @@
 
         color: $color-dark-l;
     }
+    .secondary-button {
+        color: $color-dark-3xl; 
+    }
+}
+
+.button-arrow {
+    &_prev {
+        margin-right: 0.7rem;
+    }
+    &_next {
+        transform: rotate(180deg);
+    }
+    
 }
