@@ -10,6 +10,7 @@
     }
     &__title {
         margin-bottom: 6rem;
+        padding-right: 0.5rem;
         h3 {
             margin: 0px;
             padding-left: 0.7rem;
@@ -25,24 +26,34 @@
             color: $color-dark-l;
         }
     }
-    &__content {
+    &__container {
         padding-bottom: 6rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+    }
+    &__content {
+        width: 100%;
+        padding: 0 0.7rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
         
     }
 }
 
 .card {
+    width: 27rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: $color-light-s;
+    
     img {
-        max-width: 27rem;
+        width: 100%;
         height: auto;
         border-radius: 9px 9px 0px 0px;
     }
@@ -64,11 +75,14 @@
 }
 
 .button-arrow {
+    margin-top: 4.6rem;
     &_prev {
-        margin-right: 0.7rem;
+       margin-left: 0.2rem;
     }
     &_next {
+        margin-right: 0.2rem;
         transform: rotate(180deg);
+        
     }
     
 }

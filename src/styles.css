@@ -8,8 +8,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 1.7rem;
-  line-height: 130%;
-  /* identical to box height, or 22px */
+  line-height: 2.2rem;
   letter-spacing: 0.06em;
   color: #292929; }
   .primary-button:hover, .secondary-button:hover {
@@ -31,7 +30,7 @@
   background-repeat: no-repeat;
   color: #292929;
   border: 2px solid #F1CDB3;
-  border-radius: 50%; }
+  border-radius: 10rem; }
   .button-arrow:hover {
     background-color: #F1CDB3; }
   .button-arrow__inactive {
@@ -145,7 +144,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 6.7rem 17.6rem 9rem 11.4rem; }
+  padding: 6.7rem 17.6rem 9.8rem 11.4rem; }
 
 .about__content {
   width: 43rem;
@@ -192,7 +191,8 @@
     .pets__wrapper .primary-button, .pets__wrapper .secondary-button {
       margin: 0px auto; }
   .pets__title {
-    margin-bottom: 6rem; }
+    margin-bottom: 6rem;
+    padding-right: 0.5rem; }
     .pets__title h3 {
       margin: 0px;
       padding-left: 0.7rem;
@@ -204,21 +204,29 @@
       text-align: center;
       letter-spacing: 0.06em;
       color: #545454; }
-  .pets__content {
+  .pets__container {
     padding-bottom: 6rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center; }
+  .pets__content {
+    width: 100%;
+    padding: 0 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center; }
 
 .card {
+  width: 27rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #FAFAFA; }
   .card img {
-    max-width: 27rem;
+    width: 100%;
     height: auto;
     border-radius: 9px 9px 0px 0px; }
   .card__name {
@@ -233,11 +241,13 @@
   .card .secondary-button {
     color: #292929; }
 
-.button-arrow_prev {
-  margin-right: 0.7rem; }
-
-.button-arrow_next {
-  transform: rotate(180deg); }
+.button-arrow {
+  margin-top: 4.6rem; }
+  .button-arrow_prev {
+    margin-left: 0.2rem; }
+  .button-arrow_next {
+    margin-right: 0.2rem;
+    transform: rotate(180deg); }
 
 * {
   box-sizing: border-box;
