@@ -2,6 +2,7 @@
     background-color: $color-light-l;
     &__wrapper {
         padding-top: 8rem;
+        padding-bottom: 10rem;
         display: flex;
         flex-direction: column;
         .primary-button {
@@ -18,11 +19,9 @@
             font-style: normal;
             font-weight: normal;
             font-size: 3.5rem;
-            line-height: 4.5rem;
-            
+            line-height: 4.5rem;  
             text-align: center;
             letter-spacing: 0.06em;
-
             color: $color-dark-l;
         }
     }
@@ -39,13 +38,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
-        
+        align-items: center; 
     }
 }
 
 .card {
     width: 27rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,15 +57,16 @@
         border-radius: 9px 9px 0px 0px;
     }
     &__name {
+        margin: 0px;
+        padding: 2.8rem 0px 3rem;
+        margin-bottom: 0rem;
         font-family: Georgia;
         font-style: normal;
         font-weight: normal;
         font-size: 2rem;
         line-height: 2.3rem;
-        
         text-align: center;
         letter-spacing: 0.06em;
-
         color: $color-dark-l;
     }
     .secondary-button {
@@ -75,14 +75,12 @@
 }
 
 .button-arrow {
-    margin-top: 4.6rem;
+    margin-bottom: 0.5rem;
     &_prev {
        margin-left: 0.2rem;
     }
     &_next {
         margin-right: 0.2rem;
         transform: rotate(180deg);
-        
     }
-    
 }
