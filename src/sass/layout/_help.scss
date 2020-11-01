@@ -1,0 +1,55 @@
+.help{
+    background: $color-light-xl;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    &__wrapper {
+        
+    }
+    &__title {
+        margin: 0px;
+        padding-left: 0.6rem;
+        padding-right: 0.4rem;
+        padding-bottom: 6rem;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.5rem;
+        line-height: 4.5rem;  
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $color-dark-l;
+        p {
+            margin: 0px;
+        }
+    }
+    &__list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+}
+
+.list {
+    &__item {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 2.3rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $color-dark-l;
+        &:before {
+            content: url('./../../../assets/icon-pet-food.png');
+        }
+    }
+}
