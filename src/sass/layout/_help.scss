@@ -1,3 +1,10 @@
+@mixin center() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .help{
     background: $color-light-xl;
     padding-top: 8rem;
@@ -23,33 +30,80 @@
         }
     }
     &__list {
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         margin: 0px;
-        padding: 0px;
+        padding: 0px 4rem;
         list-style-type: none;
-    }
-}
-
-.list {
-    &__item {
         font-family: Georgia;
         font-style: normal;
         font-weight: normal;
         font-size: 2rem;
         line-height: 2.3rem;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
         color: $color-dark-l;
-        &:before {
-            content: url('./../../../assets/icon-pet-food.png');
+    }
+    .list {
+        &__item {
+            margin: 0 5rem;
+            margin-bottom: 5rem;
+            @include center();
+            &_first {
+                &:before {
+                    content: url('./../../../assets/icon-pet-food.png');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_second {
+                &:before {
+                    content: url('../../../assets/icon-transportation.png');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_third {
+                &:before {
+                    content: url('../../../assets/icon-toys.svg');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_forth {
+                &:before {
+                    content: url('../../../assets/icon-bowls-and-cups.svg');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_fiveth {
+                &:before {
+                    content: url('../../../assets/icon-shampoos.svg');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_sixth {
+                &:before {
+                    content: url('../../../assets/icon-vitamins.svg');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_seventh {
+                &:before {
+                    content: url('../../../assets/icon-medicines.svg');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_eighth {
+                &:before {
+                    content: url('../../../assets/icon-collars-leashes.svg');
+                    margin-bottom: 3rem;
+                }
+            }
+            &_nineth {
+                &:before {
+                    content: url('../../../assets/icon-sleeping-area.svg');
+                    margin-bottom: 3rem;
+                }
+            }
         }
     }
 }

@@ -272,29 +272,54 @@
     .help__title p {
       margin: 0px; }
   .help__list {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin: 0px;
-    padding: 0px;
-    list-style-type: none; }
-
-.list__item {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-  line-height: 2.3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #545454; }
-  .list__item:before {
-    content: url("./../../../assets/icon-pet-food.png"); }
+    padding: 0px 4rem;
+    list-style-type: none;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.06em;
+    color: #545454; }
+  .help .list__item {
+    margin: 0 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .help .list__item_first:before {
+      content: url("./../../../assets/icon-pet-food.png");
+      margin-bottom: 3rem; }
+    .help .list__item_second:before {
+      content: url("../../../assets/icon-transportation.png");
+      margin-bottom: 3rem; }
+    .help .list__item_third:before {
+      content: url("../../../assets/icon-toys.svg");
+      margin-bottom: 3rem; }
+    .help .list__item_forth:before {
+      content: url("../../../assets/icon-bowls-and-cups.svg");
+      margin-bottom: 3rem; }
+    .help .list__item_fiveth:before {
+      content: url("../../../assets/icon-shampoos.svg");
+      margin-bottom: 3rem; }
+    .help .list__item_sixth:before {
+      content: url("../../../assets/icon-vitamins.svg");
+      margin-bottom: 3rem; }
+    .help .list__item_seventh:before {
+      content: url("../../../assets/icon-medicines.svg");
+      margin-bottom: 3rem; }
+    .help .list__item_eighth:before {
+      content: url("../../../assets/icon-collars-leashes.svg");
+      margin-bottom: 3rem; }
+    .help .list__item_nineth:before {
+      content: url("../../../assets/icon-sleeping-area.svg");
+      margin-bottom: 3rem; }
 
 .footer {
   width: 100%;
