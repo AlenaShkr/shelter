@@ -39,6 +39,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center; 
+        order: 2;
     }
 }
 
@@ -78,9 +79,11 @@
     margin-bottom: 0.5rem;
     &_prev {
        margin-left: 0.2rem;
+       order: 1;
     }
     &_next {
         margin-right: 0.2rem;
         transform: rotate(180deg);
+        order: 3;
     }
 }
