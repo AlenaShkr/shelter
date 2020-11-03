@@ -258,7 +258,7 @@
 .help {
   background: #FFFFFF;
   padding-top: 8rem;
-  padding-bottom: 10rem; }
+  padding-bottom: 5rem; }
   .help__title {
     margin: 0px;
     padding-left: 0.6rem;
@@ -276,11 +276,12 @@
       margin: 0px; }
   .help__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     align-items: center;
     flex-wrap: wrap;
     margin: 0px;
-    padding: 0px 4rem;
+    margin: 0px 8.5rem;
+    padding: 0px;
     list-style-type: none;
     font-family: Georgia;
     font-style: normal;
@@ -290,39 +291,43 @@
     letter-spacing: 0.06em;
     color: #545454; }
   .help .list__item {
-    margin: 0 5rem;
-    margin-bottom: 5rem;
+    margin: 0px;
+    margin-bottom: 5.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    .help .list__item:not(:first-child) {
+      margin-left: 11.9rem; }
     .help .list__item_first:before {
       content: url("./../../../assets/icon-pet-food.png");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
     .help .list__item_second:before {
       content: url("../../../assets/icon-transportation.png");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
     .help .list__item_third:before {
       content: url("../../../assets/icon-toys.svg");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
     .help .list__item_forth:before {
       content: url("../../../assets/icon-bowls-and-cups.svg");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
     .help .list__item_fiveth:before {
       content: url("../../../assets/icon-shampoos.svg");
-      margin-bottom: 3rem; }
-    .help .list__item_sixth:before {
-      content: url("../../../assets/icon-vitamins.svg");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
+    .help .list__item_sixth {
+      margin-left: auto; }
+      .help .list__item_sixth:before {
+        content: url("../../../assets/icon-vitamins.svg");
+        margin-bottom: 2.5rem; }
     .help .list__item_seventh:before {
       content: url("../../../assets/icon-medicines.svg");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
     .help .list__item_eighth:before {
       content: url("../../../assets/icon-collars-leashes.svg");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
     .help .list__item_nineth:before {
       content: url("../../../assets/icon-sleeping-area.svg");
-      margin-bottom: 3rem; }
+      margin-bottom: 2.5rem; }
 
 .footer {
   width: 100%;

@@ -8,10 +8,7 @@
 .help{
     background: $color-light-xl;
     padding-top: 8rem;
-    padding-bottom: 10rem;
-    &__wrapper {
-        
-    }
+    padding-bottom: 5rem;
     &__title {
         margin: 0px;
         padding-left: 0.6rem;
@@ -31,11 +28,12 @@
     }
     &__list {
         display: flex;
-        justify-content: space-between;
+        justify-content: stretch;
         align-items: center;
         flex-wrap: wrap;
         margin: 0px;
-        padding: 0px 4rem;
+        margin: 0px 8.5rem;
+        padding: 0px;
         list-style-type: none;
         font-family: Georgia;
         font-style: normal;
@@ -47,61 +45,65 @@
     }
     .list {
         &__item {
-            margin: 0 5rem;
-            margin-bottom: 5rem;
+            margin: 0px;
+            margin-bottom: 5.5rem;
             @include center();
+            &:not(:first-child) {
+                margin-left: 11.9rem;
+            }
             &_first {
                 &:before {
                     content: url('./../../../assets/icon-pet-food.png');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_second {
                 &:before {
                     content: url('../../../assets/icon-transportation.png');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_third {
                 &:before {
                     content: url('../../../assets/icon-toys.svg');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_forth {
                 &:before {
                     content: url('../../../assets/icon-bowls-and-cups.svg');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_fiveth {
                 &:before {
                     content: url('../../../assets/icon-shampoos.svg');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_sixth {
+                margin-left: auto;
                 &:before {
                     content: url('../../../assets/icon-vitamins.svg');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_seventh {
                 &:before {
                     content: url('../../../assets/icon-medicines.svg');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_eighth {
                 &:before {
                     content: url('../../../assets/icon-collars-leashes.svg');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
             &_nineth {
                 &:before {
                     content: url('../../../assets/icon-sleeping-area.svg');
-                    margin-bottom: 3rem;
+                    margin-bottom: 2.5rem;
                 }
             }
         }
