@@ -329,6 +329,9 @@
       content: url("../../../assets/icon-sleeping-area.svg");
       margin-bottom: 2.5rem; }
 
+.donation {
+  background-color: #F6F6F6; }
+
 .footer {
   width: 100%;
   height: 35rem;
