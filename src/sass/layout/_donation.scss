@@ -1,9 +1,81 @@
 .donation {
+    padding-top: 9rem;
+    padding-bottom: 10rem;
     background-color: $color-light-l;
+    
+    &__wrapper {
+        padding: 0px 14.3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
     &__img {
 
     }
     &__content {
+        display: flex;
+        flex-direction: column;
 
+    }
+    .content {
+        &__title {
+            margin: 0px;
+            font-family: Georgia;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3.5rem;
+            line-height: 4.5rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.06em;
+            color: $color-dark-l;
+        }
+        &__subtitle {
+            margin: 0px;
+            font-family: Georgia;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.5rem;
+            line-height: 1.7rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.06em;
+            color: $color-dark-l;
+        }
+
+        &__credit-card {
+            display: flex;
+            flex-direction: row;
+            background-color: $color-primary;
+            .credit-card {
+                &__img {
+    
+                }
+                &__link {
+                    margin: 0px;
+                    font-family: Georgia;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 2rem;
+                    line-height: 2.3rem;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.06em;
+                    color: $color-dark-l;
+                }
+            }
+        }
+        &__information {
+            font-family: Arial;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            display: flex;
+            align-items: center;
+            color: $color-dark-m;
+        }
     }
 }

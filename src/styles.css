@@ -258,7 +258,7 @@
 .help {
   background: #FFFFFF;
   padding-top: 8rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 4.6rem; }
   .help__title {
     margin: 0px;
     padding-left: 0.6rem;
@@ -330,7 +330,65 @@
       margin-bottom: 2.5rem; }
 
 .donation {
+  padding-top: 9rem;
+  padding-bottom: 10rem;
   background-color: #F6F6F6; }
+  .donation__wrapper {
+    padding: 0px 14.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem; }
+  .donation__content {
+    display: flex;
+    flex-direction: column; }
+  .donation .content__title {
+    margin: 0px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454; }
+  .donation .content__subtitle {
+    margin: 0px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454; }
+  .donation .content__credit-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #F1CDB3; }
+    .donation .content__credit-card .credit-card__link {
+      margin: 0px;
+      font-family: Georgia;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2rem;
+      line-height: 2.3rem;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.06em;
+      color: #545454; }
+  .donation .content__information {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2; }
 
 .footer {
   width: 100%;
