@@ -42,7 +42,6 @@
         order: 2;
     }
 }
-
 .card {
     width: 27rem;
     padding-bottom: 3rem;
@@ -50,8 +49,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: $color-light-s;
-    
+    background-color: $color-light-s;  
     img {
         width: 100%;
         height: auto;
@@ -74,7 +72,6 @@
         color: $color-dark-3xl; 
     }
 }
-
 .button-arrow {
     margin-bottom: 0.5rem;
     &_prev {
