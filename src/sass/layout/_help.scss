@@ -4,11 +4,10 @@
     justify-content: center;
     align-items: center;
 }
-
 .help{
     background: $color-light-xl;
     padding-top: 8rem;
-    padding-bottom: 4.5rem;
+    padding-bottom: 10rem;
     &__title {
         margin: 0px;
         padding-left: 0.6rem;
@@ -28,9 +27,10 @@
     }
     &__list {
         display: flex;
-        justify-content: stretch;
+        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        gap: 5.5rem 11.9rem;
         margin: 0px;
         margin: 0px 8.5rem;
         padding: 0px;
@@ -46,11 +46,7 @@
     .list {
         &__item {
             margin: 0px;
-            margin-bottom: 5.5rem;
             @include center();
-            &:not(:first-child) {
-                margin-left: 11.9rem;
-            }
             &_first {
                 &:before {
                     content: url('./../../../assets/icon-pet-food.png');
@@ -101,6 +97,7 @@
                 }
             }
             &_nineth {
+                margin-right: auto;
                 &:before {
                     content: url('../../../assets/icon-sleeping-area.svg');
                     margin-bottom: 2.5rem;
