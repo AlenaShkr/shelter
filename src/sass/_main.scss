@@ -28,5 +28,5 @@
 }
 
 .main {
-  min-height: calc(100vh-$heightfooter);
+  min-height: calc(100vh-#{$heightfooter});
 }
