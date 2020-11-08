@@ -1,10 +1,10 @@
 .pets {
     background-color: $color-light-l;
     &__wrapper {
-        padding-top: 8rem;
-        padding-bottom: 10.5rem;
         display: flex;
         flex-direction: column;
+        padding-top: 8rem;
+        padding-bottom: 10rem;
         .primary-button {
             margin: 0px auto;
             a {
@@ -19,40 +19,35 @@
         h3 {
             margin: 0px;
             padding-left: 0.7rem;
-            font-family: Georgia;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 3.5rem;
-            line-height: 4.5rem;  
+            @include text-h3;
             text-align: center;
-            letter-spacing: 0.06em;
             color: $color-dark-l;
         }
     }
     &__container {
-        padding-bottom: 6rem;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        padding-bottom: 6rem;
     }
     &__content {
-        width: 100%;
-        padding: 0 0.7rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center; 
         order: 2;
+        width: 100%;
+        padding: 0 0.7rem;
     }
 }
 .card {
-    width: 27rem;
-    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 27rem;
+    padding-bottom: 3rem;
     background-color: $color-light-s;  
     &:hover {
         box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
@@ -66,15 +61,9 @@
     }
     &__name {
         margin: 0px;
-        padding: 2.8rem 0px 3rem;
-        margin-bottom: 0rem;
-        font-family: Georgia;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2rem;
-        line-height: 2.3rem;
+        padding: 3rem 0px 3rem;
+        @include text-h4;
         text-align: center;
-        letter-spacing: 0.06em;
         color: $color-dark-l;
     }
     .secondary-button {

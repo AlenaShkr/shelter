@@ -56,10 +56,10 @@
   margin-bottom: 1rem;
   color: #F1CDB3;
   font-family: Georgia;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 3.5rem;
   letter-spacing: 0.06em;
   text-align: left; }
 
@@ -88,12 +88,10 @@
 
 .header-menu-list-item {
   font-family: Arial;
-  font-size: 15px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: left; }
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.4rem; }
   .header-menu-list-item a {
     color: #CDCDCD;
     text-decoration: none; }
@@ -111,33 +109,30 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start; }
-
-.start-screen__wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding-top: 4.8rem; }
-
-.start-screen__title {
-  padding-right: 19rem;
-  margin: 0px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4.4rem;
-  line-height: 130%;
-  color: #FFFFFF; }
-
-.start-screen__subtitle {
-  padding-right: 3rem;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 160%;
-  color: #CDCDCD; }
+  .start-screen__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 4.8rem; }
+  .start-screen__title {
+    padding-right: 19rem;
+    margin: 0px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.4rem;
+    line-height: 5.7rem;
+    color: #FFFFFF; }
+  .start-screen__subtitle {
+    padding-right: 3rem;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #CDCDCD; }
 
 .about__wrapper {
   display: flex;
@@ -147,13 +142,15 @@
   padding: 8rem 4.8rem 9.2rem 4.4rem; }
 
 .about__content {
-  width: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start; }
+  align-items: flex-start;
+  width: 43rem; }
 
 .about__information {
+  display: flex;
+  align-items: center;
   margin: 0px;
   margin-bottom: 2.4rem;
   font-family: Arial;
@@ -161,11 +158,11 @@
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 2.4rem;
-  display: flex;
-  align-items: center;
   color: #4C4C4C; }
 
 .about__title {
+  display: flex;
+  align-items: center;
   margin: 0;
   margin-bottom: 2.3rem;
   padding-top: 1.5rem;
@@ -175,18 +172,16 @@
   font-weight: normal;
   font-size: 3.5rem;
   line-height: 4.5rem;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
   color: #545454; }
 
 .pets {
   background-color: #F6F6F6; }
   .pets__wrapper {
-    padding-top: 8rem;
-    padding-bottom: 10.5rem;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-bottom: 10rem; }
     .pets__wrapper .primary-button, .pets__wrapper .secondary-button {
       margin: 0px auto; }
       .pets__wrapper .primary-button a, .pets__wrapper .secondary-button a {
@@ -203,31 +198,31 @@
       font-weight: normal;
       font-size: 3.5rem;
       line-height: 4.5rem;
-      text-align: center;
       letter-spacing: 0.06em;
+      text-align: center;
       color: #545454; }
   .pets__container {
-    padding-bottom: 6rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding-bottom: 6rem; }
   .pets__content {
-    width: 100%;
-    padding: 0 0.7rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    order: 2; }
+    order: 2;
+    width: 100%;
+    padding: 0 0.7rem; }
 
 .card {
-  width: 27rem;
-  padding-bottom: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 27rem;
+  padding-bottom: 3rem;
   background-color: #FAFAFA; }
   .card:hover {
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
@@ -239,15 +234,14 @@
     border-radius: 9px 9px 0px 0px; }
   .card__name {
     margin: 0px;
-    padding: 2.8rem 0px 3rem;
-    margin-bottom: 0rem;
+    padding: 3rem 0px 3rem;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
     line-height: 2.3rem;
-    text-align: center;
     letter-spacing: 0.06em;
+    text-align: center;
     color: #545454; }
   .card .secondary-button {
     color: #292929; }
@@ -268,16 +262,14 @@
   padding-bottom: 10rem; }
   .help__title {
     margin: 0px;
-    padding-left: 0.6rem;
-    padding-right: 0.4rem;
-    padding-bottom: 6rem;
+    padding: 0rem 0.4rem 6rem 0.6rem;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
     font-size: 3.5rem;
     line-height: 4.5rem;
-    text-align: center;
     letter-spacing: 0.06em;
+    text-align: center;
     color: #545454; }
     .help__title p {
       margin: 0px; }
@@ -287,17 +279,16 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 5.5rem 11.9rem;
-    margin: 0px;
     margin: 0px 8.5rem;
     padding: 0px;
-    list-style-type: none;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
     line-height: 2.3rem;
     letter-spacing: 0.06em;
-    color: #545454; }
+    color: #545454;
+    list-style-type: none; }
   .help .list__item {
     margin: 0px;
     display: flex;
@@ -338,19 +329,21 @@
 
 .donation {
   padding-top: 8rem;
-  padding-bottom: 10rem;
+  padding-bottom: 10.3rem;
   background-color: #F6F6F6; }
   .donation__wrapper {
-    padding: 0px 14.3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 3rem; }
+    gap: 3rem;
+    padding: 0px 14.3rem; }
   .donation__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start; }
   .donation .content__title {
+    display: flex;
+    align-items: center;
     margin: 0px;
     margin-bottom: 2rem;
     padding-top: 0px;
@@ -360,30 +353,30 @@
     font-weight: normal;
     font-size: 3.5rem;
     line-height: 4.5rem;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.06em;
     color: #545454; }
   .donation .content__subtitle {
+    display: flex;
+    align-items: center;
     margin: 0px;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 1.7rem;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.06em;
     color: #545454; }
   .donation .content__credit-card {
-    margin: 2rem 0px;
-    padding: 1rem 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin: 2rem 0px;
+    padding: 1rem 1.5rem;
     background-color: #F1CDB3;
     border-radius: 0.9rem; }
     .donation .content__credit-card .credit-card__link {
+      display: flex;
+      align-items: center;
       margin: 0px;
       margin-left: 1rem;
       font-family: Georgia;
@@ -391,19 +384,17 @@
       font-weight: normal;
       font-size: 2rem;
       line-height: 2.3rem;
-      display: flex;
-      align-items: center;
       letter-spacing: 0.06em;
       color: #545454; }
   .donation .content__information {
+    display: flex;
+    align-items: center;
     margin: 0px;
     font-family: Arial;
     font-style: italic;
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.8rem;
-    display: flex;
-    align-items: center;
     color: #B2B2B2; }
 
 .footer {

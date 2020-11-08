@@ -1,13 +1,13 @@
 .donation {
     padding-top: 8rem;
-    padding-bottom: 10rem;
+    padding-bottom: 10.3rem;
     background-color: $color-light-l;
     &__wrapper {
-        padding: 0px 14.3rem;
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 3rem;
+        padding: 0px 14.3rem;
     }
     &__content {
         display: flex;
@@ -16,65 +16,46 @@
     }
     .content {
         &__title {
+            display: flex;
+            align-items: center;
             margin: 0px;
             margin-bottom: 2rem;
             padding-top: 0px;
             padding-right: 7rem;
-            font-family: Georgia;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 3.5rem;
-            line-height: 4.5rem;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.06em;
+            @include text-h3;
             color: $color-dark-l;
         }
         &__subtitle {
-            margin: 0px;
-            font-family: Georgia;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 1.5rem;
-            line-height: 1.7rem;
             display: flex;
             align-items: center;
-            letter-spacing: 0.06em;
+            margin: 0px;
+            @include text-h5;
             color: $color-dark-l;
         }
         &__credit-card {
-            margin: 2rem 0px;
-            padding: 1rem 1.5rem;
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
+            margin: 2rem 0px;
+            padding: 1rem 1.5rem;
             background-color: $color-primary;
             border-radius: 0.9rem;
             .credit-card {
                 &__link {
-                    margin: 0px;
-                    margin-left: 1rem;
-                    font-family: Georgia;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 2rem;
-                    line-height: 2.3rem;
                     display: flex;
                     align-items: center;
-                    letter-spacing: 0.06em;
+                    margin: 0px;
+                    margin-left: 1rem;
+                    @include text-h4;
                     color: $color-dark-l;
                 }
             }
         }
         &__information {
-            margin: 0px;
-            font-family: Arial;
-            font-style: italic;
-            font-weight: normal;
-            font-size: 1.2rem;
-            line-height: 1.8rem;
             display: flex;
             align-items: center;
+            margin: 0px;
+           @include parag-s;
             color: $color-dark-m;
         }
     }
