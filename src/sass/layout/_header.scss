@@ -25,7 +25,7 @@
 .header-logo-subtitle {
     padding-left: 0.4rem;
     color: $color-light-xl;
-    @include logo-subtitle(13px, 15px, 0.1em);
+    @include logo-subtitle(1.3rem, 1.5rem, 0.1em);
 }
 
 .header__navigation {

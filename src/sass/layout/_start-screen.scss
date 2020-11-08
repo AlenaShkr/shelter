@@ -22,15 +22,20 @@
         padding-right: 19rem;
         margin: 0px;
         @include text-h2;
-        color:$color-light-xl; 
+        color:$color-light-xl;
+        @media only screen and (max-width: $tablet){
+            padding-right: 2rem;
+          } 
     }
     &__subtitle {
         padding-right: 3rem;
         @include parag-l;
         color: $color-dark-s;
     }
-    &__image {
-        max-width: 100%;
-        height: auto;
+    &__img {
+        @media only screen and (max-width: 1024px){
+            max-width: 100%;
+            height: auto;
+          }
     }
 }
