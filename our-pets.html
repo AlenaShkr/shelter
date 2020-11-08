@@ -10,5 +10,96 @@
   </head>
 
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-logo">
+          <span class="header-logo-title">Cozy House</span>
+          <span class="header-logo-subtitle">Shelter for pets in Boston</span>
+        </div>       
+        <nav class="header__navigation">
+          <ul class="header-menu-list">
+            <li class="header-menu-list-item item_active">
+              <a href="#about">About the shelter</a>              
+            </li>
+            <li class="header-menu-list-item">
+              <a href="#pets">Our pets</a>
+            </li>
+            <li class="header-menu-list-item">
+              <a href="#help">Help the shelter</a>
+            </li>
+            <li class="header-menu-list-item">
+              <a href="#donation">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="pets" id="pets">
+        <div class="wrapper pets__wrapper">
+          <div class="pets__title">
+            <h3>
+              Our friends who
+            </h3>
+            <h3>
+              are looking for a house
+            </h3>
+          </div>
+          <div class="pets__container">
+            <div class="pets__content">
+              <div class="card">
+                <img src="./assets/pets-katrine.jpg" alt="Katrine">
+                <p class="card__name">Katrine</p>
+                <button class="secondary-button">Learn more</button>
+              </div>
+              <div class="card">
+                <img src="./assets/pets-jennifer.jpg" alt="Jenifer"> 
+                <p class="card__name">Jennifer</p>
+                <button class="secondary-button">Learn more</button>
+              </div>
+              <div class="card">
+                <img src="./assets/pets-woody.jpg" alt="Woddy">
+                <p class="card__name">Woody</p>
+                <button class="secondary-button">Learn more</button>
+              </div>
+            </div>
+            <button class="button-arrow button-arrow_prev"></button>
+            <button class="button-arrow button-arrow_next"></button>
+          </div>
+          <button class="primary-button">
+            <a href="./our-pets.html">
+              Get to know the rest
+            </a>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__contact">
+          <h3 class="contact__title">
+            For questions and suggestions
+          </h3>
+          <a href="mailto:email@shelter.com" class="contact__mail">
+            email@shelter.com
+          </a>
+          <a href="tel:+13 674 567 75 54" class="contact__phone">
+            +13 674 567 75 54
+          </a>
+        </div>
+        <div class="footer__location">
+          <h3 class="location__title">
+            We are waiting for your visit
+          </h3>
+          <a href="#" class="location__addres">
+            1 Central Street, Boston (entrance from the store)
+          </a>
+          <a href="#" class="location__addres">
+            18 South Park, London 
+          </a>    
+        </div>
+        <img src="./assets/footer-puppy.png" alt="puppy" class="footer__img">
+      </div>
+    </footer>
   </body>
 </html>

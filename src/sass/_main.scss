@@ -22,14 +22,16 @@
 
 :root {
   font-size: 10px;
+  @media only screen and (max-width: $tablet){
+    font-size: 7px;
+  }
+  @media only screen and (max-width: $mobile){
+    font-size: 5px;
+  }
 }
 
 .wrapper {
   max-width: 1200px;
   width: 100%;
   margin: 0px auto;
-}
-
-.main {
-  min-height: calc(100vh-#{$heightfooter});
 }
