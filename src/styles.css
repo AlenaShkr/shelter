@@ -49,7 +49,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding-bottom: 3rem;
   background-color: #FAFAFA; }
   .card:hover {
@@ -499,6 +498,14 @@
         content: url("../../../assets/icon-marker.svg");
         margin-right: 1.8rem; }
 
+@media only screen and (max-width: 768px) {
+  .our-pets .wrapper {
+    max-width: 708px; } }
+
+@media only screen and (max-width: 375px) {
+  .our-pets .wrapper {
+    max-width: 300px; } }
+
 .our-pets .header {
   position: static;
   padding-top: 3rem;
@@ -508,7 +515,9 @@
 
 .our-pets .pets__container {
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden; }
 
 .our-pets .pets__content {
   display: grid;
@@ -519,11 +528,11 @@
   @media only screen and (max-width: 768px) {
     .our-pets .pets__content {
       grid-template-rows: repeat(3, 1fr);
-      grid-template-columns: repeat(2, 1fr); } }
+      grid-template-columns: 50% 50% 0px; } }
   @media only screen and (max-width: 375px) {
     .our-pets .pets__content {
       grid-template-rows: repeat(3, 1fr);
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: 100% 0px; } }
 
 .our-pets .card__pagination {
   order: 2; }
