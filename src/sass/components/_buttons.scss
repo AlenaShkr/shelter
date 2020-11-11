@@ -25,21 +25,37 @@
     }
 }
 
-.button-arrow {
+.button-round {
     width: 5.2rem;
     height: 5.2rem;
-    background-image: url('../../../assets/Arrow.png');
-    background-color: $color-light-l;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     color: $color-dark-3xl;
     border: 2px solid $color-primary;
     border-radius: 10rem;
     &:hover {
         background-color: $color-primary;
     }
-    &__inactive {
+    &_inactive {
         color: $color-dark-s; 
         border-color: $color-dark-s;  
+    }
+}
+
+.button-arrow {
+    @extend .button-round;
+    background-image: url('../../../assets/Arrow.png');
+    background-color: $color-light-l;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.button-pagination {
+    @extend .button-round;
+    &_inactive {
+        color: $color-dark-s; 
+        border-color: $color-dark-s; 
+        &:hover {
+            background-color: $color-light-l;
+        } 
     }
 }

@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="src/styles.css">
   </head>
 
-  <body>
-    <header class="header">
+  <body class="our-pets">
+    <header class="header header-pets">
       <div class="wrapper">
         <div class="header-logo">
           <span class="header-logo-title">Cozy House</span>
@@ -18,10 +18,10 @@
         </div>       
         <nav class="header__navigation">
           <ul class="header-menu-list">
-            <li class="header-menu-list-item item_active">
+            <li class="header-menu-list-item">
               <a href="#about">About the shelter</a>              
             </li>
-            <li class="header-menu-list-item">
+            <li class="header-menu-list-item item_active">
               <a href="#pets">Our pets</a>
             </li>
             <li class="header-menu-list-item">
@@ -61,16 +61,43 @@
                 <img src="./assets/pets-woody.jpg" alt="Woddy">
                 <p class="card__name">Woody</p>
                 <button class="secondary-button">Learn more</button>
+              </div> 
+              <div class="card">
+                <img src="./assets/pets-katrine.jpg" alt="Katrine">
+                <p class="card__name">Katrine</p>
+                <button class="secondary-button">Learn more</button>
               </div>
+              <div class="card">
+                <img src="./assets/pets-jennifer.jpg" alt="Jenifer"> 
+                <p class="card__name">Jennifer</p>
+                <button class="secondary-button">Learn more</button>
+              </div>
+              <div class="card">
+                <img src="./assets/pets-woody.jpg" alt="Woddy">
+                <p class="card__name">Woody</p>
+                <button class="secondary-button">Learn more</button>
+              </div>
+              <div class="card">
+                <img src="./assets/pets-jennifer.jpg" alt="Jenifer"> 
+                <p class="card__name">Jennifer</p>
+                <button class="secondary-button">Learn more</button>
+              </div>
+              <div class="card">
+                <img src="./assets/pets-woody.jpg" alt="Woddy">
+                <p class="card__name">Woody</p>
+                <button class="secondary-button">Learn more</button>
+              </div>
+            
             </div>
-            <button class="button-arrow button-arrow_prev"></button>
-            <button class="button-arrow button-arrow_next"></button>
+            <div class="card__pagination">
+              <button class="button-pagination button-pagination_inactive"><<</button>
+              <button class="button-pagination button-pagination_inactive"><</button>
+              <button class="button-pagination">1</button>
+              <button class="button-pagination">></button>  
+              <button class="button-pagination">>></button>
+            </div>
           </div>
-          <button class="primary-button">
-            <a href="./our-pets.html">
-              Get to know the rest
-            </a>
-          </button>
+          
         </div>
       </section>
     </main>
