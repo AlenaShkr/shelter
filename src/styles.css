@@ -523,7 +523,7 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  gap: 4rem 3rem;
+  gap: 3rem 4rem;
   order: 1; }
   @media only screen and (max-width: 768px) {
     .our-pets .pets__content {
@@ -532,10 +532,15 @@
   @media only screen and (max-width: 375px) {
     .our-pets .pets__content {
       grid-template-rows: repeat(3, 1fr);
-      grid-template-columns: 100% 0px; } }
+      grid-template-columns: 100% 0px 0px; } }
+  .our-pets .pets__content .card {
+    width: 27rem; }
 
 .our-pets .card__pagination {
-  order: 2; }
+  margin: 0 auto;
+  padding-left: 2rem; }
+  .our-pets .card__pagination .button-pagination {
+    margin-right: 2rem; }
 
 * {
   box-sizing: border-box;
