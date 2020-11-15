@@ -80,9 +80,9 @@
     }
     .card__pagination {
         display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
         padding-left: 2rem;
         order: 1;
         @media only screen and (max-width: $mobile) {
