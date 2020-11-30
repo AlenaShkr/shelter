@@ -30,65 +30,65 @@
         color: $color-dark-l;
         list-style-type: none;
     }
-    .list {
-        &__item {
-            margin: 0px;
-            @include center();
-            &_first {
-                &:before {
-                    content: url('./../../../assets/icon-pet-food.png');
-                    margin-bottom: 2.5rem;
-                }
+    &__item {
+        margin: 0px;
+        @include center();
+    }
+    .list-item {
+        &_first {
+            &:before {
+                content: url('./../../../assets/icon-pet-food.png');
+                margin-bottom: 2.5rem;
             }
-            &_second {
-                &:before {
-                    content: url('../../../assets/icon-transportation.png');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_second {
+            &:before {
+                content: url('../../../assets/icon-transportation.png');
+                margin-bottom: 2.5rem;
             }
-            &_third {
-                &:before {
-                    content: url('../../../assets/icon-toys.svg');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_third {
+            &:before {
+                content: url('../../../assets/icon-toys.svg');
+                margin-bottom: 2.5rem;
             }
-            &_forth {
-                &:before {
-                    content: url('../../../assets/icon-bowls-and-cups.svg');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_forth {
+            &:before {
+                content: url('../../../assets/icon-bowls-and-cups.svg');
+                margin-bottom: 2.5rem;
             }
-            &_fiveth {
-                &:before {
-                    content: url('../../../assets/icon-shampoos.svg');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_fiveth {
+            &:before {
+                content: url('../../../assets/icon-shampoos.svg');
+                margin-bottom: 2.5rem;
             }
-            &_sixth {
-                margin-left: auto;
-                &:before {
-                    content: url('../../../assets/icon-vitamins.svg');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_sixth {
+            margin-left: auto;
+            &:before {
+                content: url('../../../assets/icon-vitamins.svg');
+                margin-bottom: 2.5rem;
             }
-            &_seventh {
-                &:before {
-                    content: url('../../../assets/icon-medicines.svg');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_seventh {
+            &:before {
+                content: url('../../../assets/icon-medicines.svg');
+                margin-bottom: 2.5rem;
             }
-            &_eighth {
-                &:before {
-                    content: url('../../../assets/icon-collars-leashes.svg');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_eighth {
+            &:before {
+                content: url('../../../assets/icon-collars-leashes.svg');
+                margin-bottom: 2.5rem;
             }
-            &_nineth {
-                margin-right: auto;
-                &:before {
-                    content: url('../../../assets/icon-sleeping-area.svg');
-                    margin-bottom: 2.5rem;
-                }
+        }
+        &_nineth {
+            margin-right: auto;
+            &:before {
+                content: url('../../../assets/icon-sleeping-area.svg');
+                margin-bottom: 2.5rem;
             }
         }
     }

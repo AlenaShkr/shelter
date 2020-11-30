@@ -302,43 +302,43 @@
     letter-spacing: 0.06em;
     color: #545454;
     list-style-type: none; }
-  .help .list__item {
+  .help__item {
     margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .help .list__item_first:before {
-      content: url("./../../../assets/icon-pet-food.png");
+  .help .list-item_first:before {
+    content: url("./../../../assets/icon-pet-food.png");
+    margin-bottom: 2.5rem; }
+  .help .list-item_second:before {
+    content: url("../../../assets/icon-transportation.png");
+    margin-bottom: 2.5rem; }
+  .help .list-item_third:before {
+    content: url("../../../assets/icon-toys.svg");
+    margin-bottom: 2.5rem; }
+  .help .list-item_forth:before {
+    content: url("../../../assets/icon-bowls-and-cups.svg");
+    margin-bottom: 2.5rem; }
+  .help .list-item_fiveth:before {
+    content: url("../../../assets/icon-shampoos.svg");
+    margin-bottom: 2.5rem; }
+  .help .list-item_sixth {
+    margin-left: auto; }
+    .help .list-item_sixth:before {
+      content: url("../../../assets/icon-vitamins.svg");
       margin-bottom: 2.5rem; }
-    .help .list__item_second:before {
-      content: url("../../../assets/icon-transportation.png");
+  .help .list-item_seventh:before {
+    content: url("../../../assets/icon-medicines.svg");
+    margin-bottom: 2.5rem; }
+  .help .list-item_eighth:before {
+    content: url("../../../assets/icon-collars-leashes.svg");
+    margin-bottom: 2.5rem; }
+  .help .list-item_nineth {
+    margin-right: auto; }
+    .help .list-item_nineth:before {
+      content: url("../../../assets/icon-sleeping-area.svg");
       margin-bottom: 2.5rem; }
-    .help .list__item_third:before {
-      content: url("../../../assets/icon-toys.svg");
-      margin-bottom: 2.5rem; }
-    .help .list__item_forth:before {
-      content: url("../../../assets/icon-bowls-and-cups.svg");
-      margin-bottom: 2.5rem; }
-    .help .list__item_fiveth:before {
-      content: url("../../../assets/icon-shampoos.svg");
-      margin-bottom: 2.5rem; }
-    .help .list__item_sixth {
-      margin-left: auto; }
-      .help .list__item_sixth:before {
-        content: url("../../../assets/icon-vitamins.svg");
-        margin-bottom: 2.5rem; }
-    .help .list__item_seventh:before {
-      content: url("../../../assets/icon-medicines.svg");
-      margin-bottom: 2.5rem; }
-    .help .list__item_eighth:before {
-      content: url("../../../assets/icon-collars-leashes.svg");
-      margin-bottom: 2.5rem; }
-    .help .list__item_nineth {
-      margin-right: auto; }
-      .help .list__item_nineth:before {
-        content: url("../../../assets/icon-sleeping-area.svg");
-        margin-bottom: 2.5rem; }
 
 .donation {
   padding-top: 8rem;
