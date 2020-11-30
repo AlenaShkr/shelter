@@ -1,4 +1,4 @@
-Shelter
+**Shelter**
 
 Sass, БЭМ, pixel perfect, адаптивная верстка
 
