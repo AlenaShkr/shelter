@@ -14,19 +14,20 @@
 .header-logo {
     display: flex;
     flex-direction: column;  
+    &__title {
+        margin-bottom: 1rem;
+        color: $color-primary;
+        @include logo-title;
+    }
+    
+    &__subtitle {
+        padding-left: 0.4rem;
+        color: $color-light-xl;
+        @include logo-subtitle(1.3rem, 1.5rem, 0.1em);
+    }
 }
 
-.header-logo-title {
-    margin-bottom: 1rem;
-    color: $color-primary;
-    @include logo-title;
-}
 
-.header-logo-subtitle {
-    padding-left: 0.4rem;
-    color: $color-light-xl;
-    @include logo-subtitle(1.3rem, 1.5rem, 0.1em);
-}
 
 .header__navigation {
     width: 44.6rem;
