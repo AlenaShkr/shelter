@@ -11,6 +11,7 @@
         justify-content: space-between;
         align-items: flex-end;
         gap: 14rem;
+        padding-top: 4rem;
         @media only screen and (max-width: $tablet){
             padding-top: 1.5rem;
             flex-wrap: wrap;
@@ -19,58 +20,57 @@
           }
         @media only screen and (max-width: $mobile){
           }
-        padding-top: 4rem;
     }
-    &__contact {
+    
+    .footer-contact {
         display: flex;
-        flex-direction: column;
-        align-self: flex-start;
-        @media only screen and (max-width: $tablet) {
-            width: 43%;
-            padding-left: 2.5rem; 
+    flex-direction: column;
+    align-self: flex-start;
+    @media only screen and (max-width: $tablet) {
+        width: 43%;
+        padding-left: 2.5rem; 
+    }
+    @media only screen and (max-width: $mobile){
+        width: 100%;
+        padding-left: 1rem; 
         }
-        @media only screen and (max-width: $mobile){
-            width: 100%;
-            padding-left: 1rem; 
-          }
-        .contact {
-            &__title {
-                margin: 0px;
-                margin-top: 1.6rem;
-                margin-bottom: 4rem;
-                @include text-h3;
-                color: $color-light-xl;
-                @media only screen and (max-width: $mobile){
-                    text-indent: 2rem;
-                  }
-            }
-            &__mail {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin-bottom: 3.5rem;
-                &:before {
-                    content: url('../../../assets/icon-email.svg');
-                    margin-right: 1.8rem;
+        &__title {
+            margin: 0px;
+            margin-top: 1.6rem;
+            margin-bottom: 4rem;
+            @include text-h3;
+            color: $color-light-xl;
+            @media only screen and (max-width: $mobile){
+                text-indent: 2rem;
                 }
+        }
+        &__mail {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 3.5rem;
+            &:before {
+                content: url('../../../assets/icon-email.svg');
+                margin-right: 1.8rem;
             }
-            &__phone {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                &:before {
-                    content: url('../../../assets/icon-phone.svg');
-                    margin-right: 1.8rem;
-                } 
-            }
-            &__mail,
-            &__phone {
-                @include text-h4;
-                color: $color-primary;
-            }
+        }
+        &__phone {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            &:before {
+                content: url('../../../assets/icon-phone.svg');
+                margin-right: 1.8rem;
+            } 
+        }
+        &__mail,
+        &__phone {
+            @include text-h4;
+            color: $color-primary;
         }
     }
-    &__location {
+
+    .footer-location {
         display: flex;
         flex-direction: column;
         align-self: flex-start;
@@ -83,8 +83,7 @@
             width: 100%;
             padding-right: 0rem; 
             padding-bottom: 3.7rem;
-          }
-        .location {
+        }
             &__title {
                 margin: 0px;
                 margin-top: 1.6rem;
@@ -94,7 +93,7 @@
                 @media only screen and (max-width: $mobile){
                     text-align: center;
                     margin-bottom: 3rem;
-                  }
+                }
             }
             &__addres {
                 display: flex;
@@ -107,7 +106,6 @@
                     content: url('../../../assets/icon-marker.svg');
                     margin-right: 1.8rem;
                 }
-            }
         }
         &__pict {
                 justify-items: center;

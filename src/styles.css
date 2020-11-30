@@ -426,19 +426,19 @@
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 2rem 4rem; } }
-  .footer__contact {
+  .footer .footer-contact {
     display: flex;
     flex-direction: column;
     align-self: flex-start; }
     @media only screen and (max-width: 768px) {
-      .footer__contact {
+      .footer .footer-contact {
         width: 43%;
         padding-left: 2.5rem; } }
     @media only screen and (max-width: 375px) {
-      .footer__contact {
+      .footer .footer-contact {
         width: 100%;
         padding-left: 1rem; } }
-    .footer__contact .contact__title {
+    .footer .footer-contact__title {
       margin: 0px;
       margin-top: 1.6rem;
       margin-bottom: 4rem;
@@ -450,24 +450,24 @@
       letter-spacing: 0.06em;
       color: #FFFFFF; }
       @media only screen and (max-width: 375px) {
-        .footer__contact .contact__title {
+        .footer .footer-contact__title {
           text-indent: 2rem; } }
-    .footer__contact .contact__mail {
+    .footer .footer-contact__mail {
       display: flex;
       flex-direction: row;
       align-items: center;
       margin-bottom: 3.5rem; }
-      .footer__contact .contact__mail:before {
+      .footer .footer-contact__mail:before {
         content: url("../../../assets/icon-email.svg");
         margin-right: 1.8rem; }
-    .footer__contact .contact__phone {
+    .footer .footer-contact__phone {
       display: flex;
       flex-direction: row;
       align-items: center; }
-      .footer__contact .contact__phone:before {
+      .footer .footer-contact__phone:before {
         content: url("../../../assets/icon-phone.svg");
         margin-right: 1.8rem; }
-    .footer__contact .contact__mail, .footer__contact .contact__phone {
+    .footer .footer-contact__mail, .footer .footer-contact__phone {
       font-family: Georgia;
       font-style: normal;
       font-weight: normal;
@@ -475,21 +475,21 @@
       line-height: 2.3rem;
       letter-spacing: 0.06em;
       color: #F1CDB3; }
-  .footer__location {
+  .footer .footer-location {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     padding-right: 2rem; }
     @media only screen and (max-width: 768px) {
-      .footer__location {
+      .footer .footer-location {
         width: 46%;
         padding-right: 2.5rem; } }
     @media only screen and (max-width: 375px) {
-      .footer__location {
+      .footer .footer-location {
         width: 100%;
         padding-right: 0rem;
         padding-bottom: 3.7rem; } }
-    .footer__location .location__title {
+    .footer .footer-location__title {
       margin: 0px;
       margin-top: 1.6rem;
       margin-bottom: 3.5rem;
@@ -501,10 +501,10 @@
       letter-spacing: 0.06em;
       color: #FFFFFF; }
       @media only screen and (max-width: 375px) {
-        .footer__location .location__title {
+        .footer .footer-location__title {
           text-align: center;
           margin-bottom: 3rem; } }
-    .footer__location .location__addres {
+    .footer .footer-location__addres {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -516,10 +516,10 @@
       line-height: 2.3rem;
       letter-spacing: 0.06em;
       color: #F1CDB3; }
-      .footer__location .location__addres:before {
+      .footer .footer-location__addres:before {
         content: url("../../../assets/icon-marker.svg");
         margin-right: 1.8rem; }
-    .footer__location__pict {
+    .footer .footer-location__pict {
       justify-items: center; }
 
 @media only screen and (max-width: 768px) {
