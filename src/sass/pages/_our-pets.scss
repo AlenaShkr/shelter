@@ -14,9 +14,9 @@
         *{
             color: $color-dark-l;
         }  
-        &__navigation {
+        .header-menu-list {
             @media only screen and (max-width: $mobile) {
-                display: none;
+                /*display: none;*/
             }
         }
     }
