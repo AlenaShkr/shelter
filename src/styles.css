@@ -110,12 +110,13 @@
     text-align: left; }
 
 .header__navigation {
-  width: 44.6rem; }
+  width: 44.6rem;
+  position: relative; }
 
 .menu__toggle {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 15%;
+  bottom: 30px;
   width: 26px;
   height: 26px;
   opacity: 0;
@@ -126,18 +127,16 @@
   @media only screen and (max-width: 375px) {
     .menu__btn {
       display: flex;
-      /* используем flex для центрирования содержимого */
       align-items: center;
-      /* центрируем содержимое кнопки */
-      position: fixed;
-      top: 20px;
-      right: 20px;
+      position: absolute;
+      right: 15%;
+      bottom: 30px;
       width: 26px;
       height: 26px;
       cursor: pointer;
       z-index: 1; } }
 
-/* добавляем "гамбургер" */
+/*"гамбургер" */
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -169,8 +168,9 @@
 
 .menu__toggle:checked ~ .header-menu-list {
   visibility: visible;
-  top: 0px;
-  left: 50%; }
+  top: -20px;
+  left: 45%;
+  width: 115px; }
 
 .header-menu-list {
   width: 100%;
@@ -183,15 +183,15 @@
   @media only screen and (max-width: 375px) {
     .header-menu-list {
       display: block;
-      position: fixed;
-      top: 0px;
-      left: 50%;
+      position: absolute;
+      top: -20px;
+      left: 45%;
       visibility: hidden;
-      width: 300px;
+      width: 0px;
       height: 100%;
       margin: 0;
-      padding: 58px 0;
-      transition: .25s ease-in-out; } }
+      padding: 0px 0;
+      transition: .015s; } }
 
 .header-menu-list-item {
   font-family: Arial;
