@@ -2,4 +2,4 @@
 
 Sass, БЭМ, pixel perfect, адаптивная верстка
 
-[shelter](http://#)
+[shelter]( https://alenashkr.github.io/shelter/)
