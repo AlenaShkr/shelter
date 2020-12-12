@@ -5,6 +5,7 @@
     &__wrapper {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
         align-items: center;
         gap: 3rem;
         padding: 0px 14.3rem;

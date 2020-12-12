@@ -28,8 +28,11 @@
 }
 
 .header__navigation {
-    width: 10.6rem;
+    width: 44.6rem;
+    @media only screen and (max-width: $mobile) {
     position: relative;
+    width: 10.6rem;
+    }
 }
 //burger
 .menu__toggle {
@@ -88,7 +91,7 @@
   .menu__toggle:checked ~ .header-menu-list {
     visibility: visible;
     top: 48px;
-    left: -180%;
+    left: -70vw;
     width: 90vw;
     flex-direction: row;
   }

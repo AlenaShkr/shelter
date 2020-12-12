@@ -67,6 +67,9 @@
         }
         &_sixth {
             margin-left: auto;
+            @media only screen and (max-width: 1200px){
+                margin-left: 0px;
+              }
             &:before {
                 content: url('../../../assets/icon-vitamins.svg');
                 margin-bottom: 2.5rem;
@@ -86,6 +89,9 @@
         }
         &_nineth {
             margin-right: auto;
+            @media only screen and (max-width: 1200px){
+                margin-right: 0px;
+              }
             &:before {
                 content: url('../../../assets/icon-sleeping-area.svg');
                 margin-bottom: 2.5rem;
